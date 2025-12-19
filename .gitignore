@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+logs/
+*.log
+*.log.*
+
+# 上传的文件和用户数据
+uploads/
+input/
+images/
+
+# PDF文件（用户上传的论文）
+*.pdf
+
+# JSON文件（但保留配置文件）
+*.json
+!checklist_config.json
+!package.json
+!package-lock.json
+
+# 临时文件和提取结果
+*_parse_result_*.json
+*_parse_summary_*.json
+*_structure_*.json
+*_review.json
+*_fulltext_*.txt
+
+# 提取的文本文件（但保留文档）
+*.txt
+!requirements.txt
+!env.example.txt
+!论文格式要求.md
+
+# Markdown文件（但保留项目文档）
+*.md
+!README.md
+!论文格式要求.md
+
+# 图片文件（从PDF提取的）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 其他临时文件
+tmp/
+temp/
+*.tmp
+
